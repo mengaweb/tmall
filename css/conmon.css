@@ -1,0 +1,42 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+ ul{list-style: none;}
+ /*将所有列表样式清除所有MP清零 */
+/* banner开始 */
+ .banner img{
+    display: block;
+    margin: 0 auto;
+}
+.banner {background: #b2edfb;
+    }
+    /* banner结束 */
+/* head开始 */
+.head{
+    background: #f2f2f2;
+    height: 40px;
+    box-shadow: 0 2px 4px 0px rgba(0,0,0,0.30);
+}
+.wrapper{
+    width: 1230px;
+    margin:0 auto;
+}
+.login{
+    font: 12px/1.5 tahoma,arial,"\5b8b\4f53";
+    font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    float: left;
+}
+.login span,.login a{
+    color:#999;
+}
+.login a{
+    padding-left:20px; 
+}
+.login a:hover{
+    color: #FF0036;
+}
+/* head结束 */
