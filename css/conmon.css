@@ -135,4 +135,10 @@
 .list-tel:hover .sub-qr{
     display: block;
 }
+.new-sub-list{
+    width: 145px;
+    position: absolute;
+    right:95px;
+
+}
 /* head结束 */
