@@ -28,9 +28,9 @@
 }
 .wrapper{
     width: 1230px;
-    /* background: #ff0000; */
     margin:0 auto;
 }
+/* 居中类 wrapper */
 .header-login{
     height: 40px;
     line-height: 40px;
@@ -60,7 +60,7 @@
     line-height: 40px;
     padding: 0 15px 0 20px;
 }
-.icon-gouwucheman,.icon-shouji{
+.icon-gouwucheman,.icon-shouji,.icon-icon-{
     color:#ff0036;
     font-size: 14px;
 }
@@ -102,7 +102,6 @@
     width: 74px;
     line-height: 30px;
     display: none;
-
 }
 .sub-list a{
     color: #999;
@@ -136,9 +135,108 @@
     display: block;
 }
 .new-sub-list{
-    width: 145px;
+    width: 122px;
     position: absolute;
-    right:95px;
+    right:0px;
+    background: #fff;
+    border:1px solid #eee;
+    border-top:none;
+    padding: 10px 15px;
+    line-height: 30px;
+    display: none;
 
+}
+.new-sub-list a{
+    color: #999;
+    display: inline-block;
+    width: 60px;
+    height: 35px;
+}
+.new-sub-list li{
+    float: left;
+}
+.new-sub-list a:hover{
+    color: #ff0036;
+    text-decoration: underline;
+}
+.header-list .list-menu:hover .new-sub-list{
+    display: block;
+}
+.new-sub-list>ul{
+    overflow:hidden;
+}
+.new-sub-list hr{
+    border-style: dotted;
+}
+.new-sub-list h6{
+    color:#666
+}
+.sub-list-web{
+    width: 1150px;
+    position: absolute;
+    right:0px;
+    background: #fff;
+    border:1px solid #eee;
+    border-top:none;
+    padding: 10px 15px;
+    line-height: 30px;
+    font-family: "Microsoft YaHei",tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    /* display: none; */
+}
+#web-hot{
+    width: 455px;
+    border-right:1px #666 solid;
+}
+#web-hot li{
+    width: 90px;
+    float: left;
+    padding: 6px 0;
+    overflow: hidden;
+}
+#web-market{
+    width: 455px;
+}
+#web-market li{
+    width: 90px;
+    float: left;
+    padding: 6px 0;
+    overflow: hidden;
+}
+#web-help{
+    width: 240px;
+}
+#web-help li{
+    width: 90px;
+    float: left;
+    padding: 6px 0;
+    overflow: hidden;
+}
+.sub-list-web>div{
+    float: left;
+}
+.new-sub-list a{
+    color: #999;
+    display: inline-block;
+    width: 60px;
+    height: 35px;
+}
+.new-sub-list li{
+    float: left;
+}
+.new-sub-list a:hover{
+    color: #ff0036;
+    text-decoration: underline;
+}
+.header-list .list-menu:hover .new-sub-list{
+    display: block;
+}
+.new-sub-list>ul{
+    overflow:hidden;
+}
+.new-sub-list hr{
+    border-style: dotted;
+}
+.new-sub-list h6{
+    color:#666
 }
 /* head结束 */
