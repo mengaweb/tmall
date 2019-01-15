@@ -1,10 +1,16 @@
 #search{
     width: 1230px;
     margin:0 auto;
+    /* overflow: hidden; */
 }
 .logo{
     float: left;
-    margin-left:-57px;
+    margin-left:-47px;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
 }
 .search-box{
     float: left;
@@ -101,6 +107,7 @@
     color: #fff;
     background: #ff0036;
     font-size: 16px;
+    margin-top: -70px
 }
 .main-cate-box{
     background: rgba(0,0,0,0.55);
